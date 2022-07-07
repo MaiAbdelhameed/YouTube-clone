@@ -1,3 +1,3 @@
 # YouTube-clone
 
-recreating YouTube
+recreating youtube.com
