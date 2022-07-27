@@ -1,0 +1,40 @@
+.header{
+    display:flex;
+    flex-direction: row;
+    position: fixed;
+    top:0;
+    left:0;
+    right:0;
+    justify-content: space-between;
+    height:50px;
+    align-items: center;
+}
+
+.header-logos{
+    display:flex;
+    flex-direction: row;
+    align-items: center;
+    margin-left: 20px;
+}
+
+.pic{
+    width:25px;
+    height:25px;
+    margin-right: 20px;
+}
+
+.logo{
+    width:90px;
+    height:50px;
+}
+
+.search{
+    display:flex;
+    flex-direction: row;
+    align-items: center;
+}
+
+.holder{
+    flex:1;
+    max-width: 800px;
+}
