@@ -2,3 +2,37 @@ body{
     font-family: 'Roboto', sans-serif;
     height: 3000px;
 }
+
+
+.video-grid{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    column-gap: 5px;
+    row-gap: 10px;
+    padding:20px;
+    margin-top:55px;
+    margin-left: 70px;
+    background-color: rgb(239, 239, 239);
+}
+
+.video-pic{
+    margin-bottom:10px;
+}
+
+.video-details{
+    display: flex;
+    flex-direction: row;
+    
+}
+
+.thumbnail{
+    width:400px;
+    height: 200px;
+}
+
+.channel-pic{
+    width:35px;
+    height:35px;
+    border-radius: 18px;
+}
+
