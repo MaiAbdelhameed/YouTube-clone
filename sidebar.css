@@ -6,23 +6,30 @@
     left:0;
     top:55px;
     bottom:0;
-    width: 75px;
+    width: 70px;
     background-color: white;
+    padding-top:10px;
 }
 
 .sidebar-icon{
-    width:23px;
-    height:23px;
-    margin-top:20px;
-}
-
-.icon-text{
-    font-size:10px;
-    margin-bottom: 10px;
-}
-
-.home-icon, .explore-icon, .subscription-icon, .originals-icon, .music-icon, .library-icon{
+    width:25px;
+    height:25px;
+    margin-bottom: 4px;
     align-items: center;
     justify-content: center;
-    margin-bottom: 3px;
+}
+
+.sidebar-button{
+    display:flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 75px;
+    width: 100%;
+    font-size: 10px;
+    cursor: pointer;
+}
+
+.sidebar-button:hover{
+    background-color: rgb(243, 243, 243);
 }
