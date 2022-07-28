@@ -2,7 +2,7 @@
     display: grid;
     grid-template-columns: 1fr 1fr 1fr 1fr;
     column-gap: 13px;
-    row-gap: 15px;
+    row-gap: 50px;
     padding:25px;
     margin-right:0;
     margin-top:55px;
@@ -11,8 +11,8 @@
 }
 
 .video{
-    margin-bottom: 40px;
     width:335px;
+    cursor: pointer;
 }
 
 
@@ -22,7 +22,6 @@
 
 .thumbnail{
     width:100%;
-    cursor: pointer;
 }
 
 .video-details{
@@ -35,7 +34,6 @@
     width:35px;
     height:35px;
     border-radius: 18px;
-    cursor: pointer;
 }
 
 .video-texts{
@@ -46,7 +44,7 @@
     font-weight: 500;
     margin-bottom: 10px;
     font-size:14px;
-    cursor: pointer;
+    width: 280px;
 }
 
 .video-author, .video-stats{
