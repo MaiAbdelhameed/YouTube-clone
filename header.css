@@ -71,6 +71,25 @@
     background-color: rgb(243, 243, 243);
     padding: 8px 9px 6px 9px;
     cursor: pointer;
+    position: relative;
+}
+
+.search-button .tooltip{
+    background-color: gray;
+    color:white;
+    padding: 8px;
+    border-radius: 2px;
+    font-size:12px;
+    font-weight: 500;
+    position:absolute;
+    bottom: -45px;
+    left:5px;
+    opacity:0;
+    transition: opacity 0.15s;
+}
+
+.search-button:hover .tooltip{
+    opacity:1;
 }
 
 .voice-icon{
@@ -85,6 +104,26 @@
     padding: 8px 9px 6px 9px;
     background-color: rgb(246, 246, 246);
     cursor: pointer;
+    position: relative;
+}
+
+.voice-button .tooltip{
+    background-color: gray;
+    color:white;
+    padding: 8px;
+    width: 130px;
+    border-radius: 2px;
+    font-size:12px;
+    font-weight: 500;
+    position:absolute;
+    bottom: -45px;
+    left:-50px;
+    opacity:0;
+    transition: opacity 0.15s;
+}
+
+.voice-button:hover .tooltip{
+    opacity:1;
 }
 
 .sub-icons{
@@ -102,13 +141,68 @@
     height:24px;
 }
 
-.icon-button{   
+.create-icon-button, .youtubeapps-icon-button, .notification-icon-button, .profile-icon-button{   
     background-color: white;
     border:none;
     margin-right: 10px;
     cursor: pointer;
     position: relative;
     text-align: center;
+}
+
+.create-icon-button .tooltip{
+    background-color: gray;
+    color:white;
+    padding: 8px;
+    border-radius: 2px;
+    font-size:12px;
+    font-weight: 500;
+    position:absolute;
+    bottom: -42px;
+    left:-6px;
+    opacity:0;
+    transition: opacity 0.15s;
+}
+
+.create-icon-button:hover .tooltip{
+    opacity:1;
+}
+
+.youtubeapps-icon-button .tooltip{
+    background-color: gray;
+    color:white;
+    padding: 8px;
+    width:80px;
+    border-radius: 2px;
+    font-size:12px;
+    font-weight: 500;
+    position:absolute;
+    bottom: -42px;
+    left:-30px;
+    opacity:0;
+    transition: opacity 0.15s;
+}
+
+.youtubeapps-icon-button:hover .tooltip{
+    opacity:1;
+}
+
+.notification-icon-button .tooltip{
+    background-color: gray;
+    color:white;
+    padding: 10px;
+    border-radius: 2px;
+    font-size:12px;
+    font-weight: 500;
+    position:absolute;
+    bottom: -46px;
+    left: -24px;
+    opacity:0;
+    transition: opacity 0.15s;
+}
+
+.notification-icon-button:hover .tooltip{
+    opacity:1;
 }
 
 .notification-number{
