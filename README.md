@@ -1,3 +1,3 @@
 # YouTube-clone
 
-recreating youtube.com using HTML and CSS
+recreating youtube.com using only basic HTML and CSS.
