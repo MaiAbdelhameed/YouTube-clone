@@ -19,13 +19,13 @@
     display:flex;
     flex-direction: row;
     align-items: center;
-    margin-left: 20px;
+    margin-left: 25px;
 }
 
 .menu{
-    width:25px;
-    height:25px;
-    margin-right: 20px;
+    width:24px;
+    height:24px;
+    margin-right: 23px;
     cursor: pointer;
 }
 
