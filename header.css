@@ -8,10 +8,11 @@
     justify-content: space-between;
     height:55px;
     align-items: center;
-    border-color: rgb(195, 195, 195);
-    border-style: solid;
-    border-width: 1px;
+    border-bottom-color: rgb(228, 228, 228);
+    border-bottom-style: solid;
+    border-bottom-width: 1px;
     background-color: white;
+    z-index:100;
 }
 
 .header-logos{
@@ -97,8 +98,8 @@
 }
 
 .icon{
-    width:25px;
-    height:25px;
+    width:24px;
+    height:24px;
 }
 
 .icon-button{   
@@ -106,6 +107,22 @@
     border:none;
     margin-right: 10px;
     cursor: pointer;
+    position: relative;
+    text-align: center;
+}
+
+.notification-number{
+    background-color: rgb(209, 3, 3);
+    color:white;
+    border-radius: 50%;
+    font-size:9px;
+    padding: 3px 5px 3px 5px;
+    position: absolute;
+    top:-1px;
+    right: 2px;
+    border-style: solid;
+    border-width: 1px;
+    border-color: white;
 }
 
 .profile{
